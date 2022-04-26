@@ -2,5 +2,4 @@ streamlit
 pandas
 numpy
 plotly==5.7.0
-sklearn.model_selection
-sklearn.linear_model
+scikit-learn
