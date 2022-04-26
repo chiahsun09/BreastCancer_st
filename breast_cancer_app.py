@@ -21,7 +21,7 @@ target=pd.read_csv("target.csv")
 
 
 
-target = pd.Series(cancer.target)
+#target = pd.Series(cancer.target)
 
 
 #只取之前分析的最主要五個特徵來跑模型
