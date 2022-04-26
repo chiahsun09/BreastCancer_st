@@ -67,36 +67,36 @@ class StreamlitApp:
         mean_concave_points = st.sidebar.slider(
             f"Scroll{cols[0]}", 
             0.00,   #features[cols[0]].min()
-            features[cols[0]].max(), 
-            features[cols[0]].median()
+            float(features[cols[0]].max()), 
+            float(features[cols[0]].median())
         )  
 
         radius_error = st.sidebar.slider(
             f"Scroll{cols[1]}", 
             0.00, # 最小值features[cols[1]].min()
-            features[cols[1]].max(), 
-            features[cols[1]].median()
+            float(features[cols[1]].max()), 
+            float(features[cols[1]].median())
         )  
 
         worst_radius = st.sidebar.slider(
             f"Scroll{cols[2]}", 
             0.00, #最小值features[cols[2]].min()
-            features[cols[2]].max(), 
-            features[cols[2]].median()
+            float(features[cols[2]].max()), 
+            float(features[cols[2]].median())
         )  
 
         worst_texture = st.sidebar.slider(
             f"Scroll{cols[3]}", 
             0.00, #最小值features[cols[3]].min()
-            features[cols[3]].max(), 
-            features[cols[3]].median()
+            float(features[cols[3]].max()), 
+            float(features[cols[3]].median())
         )  
 
         worst_concave_points = st.sidebar.slider(
             f"Scroll{cols[4]}", 
             0.00, #最小值features[cols[4]].min()
-            features[cols[4]].max(), 
-            features[cols[4]].median()
+            float(features[cols[4]].max()), 
+            float(features[cols[4]].median())
         )  
 
 
