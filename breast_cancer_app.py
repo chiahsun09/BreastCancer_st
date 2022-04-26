@@ -13,9 +13,9 @@ features=pd.read_csv("features.csv")
 target=pd.read_csv("target.csv")
 
 # separate the data into features and target
-features = pd.DataFrame(
-    cancer.data, columns=cancer.feature_names
-)
+#features = pd.DataFrame(
+#    cancer.data, columns=cancer.feature_names
+#)
 #cancer.target_names=np.array(['benign','malignant'], dtype='<U9')
 #cancer.target=np.invert(cancer.target)+2
 
