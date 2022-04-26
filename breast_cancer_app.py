@@ -3,13 +3,14 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
-from sklearn.datasets import load_breast_cancer
+#from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import SGDClassifier
 
 #load dataset
-cancer  = load_breast_cancer()
-
+#cancer  = load_breast_cancer()
+features=pd.read_csv("features.csv")
+target=pd.read_csv("target.csv")
 
 # separate the data into features and target
 features = pd.DataFrame(
