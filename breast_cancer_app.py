@@ -144,7 +144,12 @@ class StreamlitApp:
         values_to_predict = np.array(values).reshape(1, -1)
 
         prediction = self.model.predict(values_to_predict)
-        prediction_str = cancer.target_names[prediction[0]]
+        if prediction==1:
+            prediction_str='benign'
+        else:
+            prediction_str='malignant'
+            
+        #prediction_str = cancer.target_names[prediction[0]]
         probabilities = np.round(self.model.predict_proba(values_to_predict),2)
 
         st.markdown(
