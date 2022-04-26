@@ -1,8 +1,10 @@
-1.實作Streamlit app
+實作Streamlit app,看看結果:
 
-https://github.com/chiahsun09/BreastCancer_st
+https://share.streamlit.io/chiahsun09/breastcancer_st/main/breast_cancer_app.py
 
-2.EDA和模型、特徵選擇,請參考
+
+
+資料EDA和模型、特徵選擇,請參考
 
 https://github.com/chiahsun09/Breast-Cancer-Wisconsin--sklearn_dataset--_ML
 
